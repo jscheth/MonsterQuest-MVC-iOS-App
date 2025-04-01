@@ -41,7 +41,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="choicePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b71-uB-1r5"/>
+                                            <action selector="choicePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jcm-It-Z4P"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="BnS-VL-ayM">
@@ -55,7 +55,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="choicePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aOE-Vj-MpL"/>
+                                            <action selector="choicePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t2Y-Pd-Wly"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -71,9 +71,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="choice1Button" destination="0w7-8W-RGV" id="W2B-Bg-WDE"/>
-                        <outlet property="choice2Button" destination="BnS-VL-ayM" id="aI7-0k-SFt"/>
-                        <outlet property="storyTextLabel" destination="dTc-uj-4iG" id="pOE-3E-MpB"/>
+                        <outlet property="choice1Button" destination="0w7-8W-RGV" id="KbC-Kr-08l"/>
+                        <outlet property="choice2Button" destination="BnS-VL-ayM" id="5gS-Pm-fqg"/>
+                        <outlet property="storyTextLabel" destination="dTc-uj-4iG" id="wSS-kB-hbh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
