@@ -17,7 +17,7 @@ final class Monster_QuestUITestsLaunchTests: XCTestCase {
         continueAfterFailure = false
     }
 
-    @MainActor
+    @GameBoardActor
     func testLaunch() throws {
         let app = XCUIApplication()
         app.launch()

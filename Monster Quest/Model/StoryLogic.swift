@@ -9,37 +9,72 @@ struct StoryLogic {
     var storyNumber = 0
     
     let stories = [
-         Story(
-             title: "Your car has blown a tire on a winding road in the middle of nowhere with no cell phone reception. You decide to hitchhike. A rusty pickup truck rumbles to a stop next to you. A man with a wide brimmed hat with soulless eyes opens the passenger door for you and asks: 'Need a ride, boy?'.",
-             choice1: "I'll hop in. Thanks for the help!", choice1Destination: 2,
-             choice2: "Better ask him if he's a murderer first.", choice2Destination: 1
-         ),
-         Story(
-             title: "He nods slowly, unfazed by the question.",
-             choice1: "At least he's honest. I'll climb in.", choice1Destination: 2,
-             choice2: "Wait, I know how to change a tire.", choice2Destination: 3
-         ),
-         Story(
-             title: "As you begin to drive, the stranger starts talking about his relationship with his mother. He gets angrier and angrier by the minute. He asks you to open the glovebox. Inside you find a bloody knife, two severed fingers, and a cassette tape of Elton John. He reaches for the glove box.",
-             choice1: "I love Elton John! Hand him the cassette tape.", choice1Destination: 5,
-             choice2: "It's him or me! You take the knife and stab him.", choice2Destination: 4
-         ),
-         Story(
-             title: "What? Such a cop out! Did you know traffic accidents are the second leading cause of accidental death for most adult age groups?",
-             choice1: "The", choice1Destination: 0,
-             choice2: "End", choice2Destination: 0
-         ),
-         Story(
-             title: "As you smash through the guardrail and careen towards the jagged rocks below you reflect on the dubious wisdom of stabbing someone while they are driving a car you are in.",
-             choice1: "The", choice1Destination: 0,
-             choice2: "End", choice2Destination: 0
-         ),
-         Story(
-             title: "You bond with the murderer while crooning verses of 'Can you feel the love tonight'. He drops you off at the next town. Before you go he asks you if you know any good places to dump bodies. You reply: 'Try the pier.'",
-             choice1: "The", choice1Destination: 0,
-             choice2: "End", choice2Destination: 0
-         )
-     ]
+        Story(
+            title: "You awaken in a misty graveyard, surrounded by ancient tombstones. A chilling howl echoes in the distance. Before you, two paths emerge—one leading into a dense, dark forest, the other to an eerie, glowing cave entrance.",
+            choice1: "Venture into the forest.", choice1Destination: 1,
+            choice2: "Enter the mysterious cave.", choice2Destination: 2
+        ),
+        Story(
+            title: "The forest is silent except for the rustling of leaves. Suddenly, a monstrous shadow moves between the trees. A pair of glowing red eyes lock onto you. It’s a vampire, and it’s watching your every move.",
+            choice1: "Run deeper into the forest.", choice1Destination: 3,
+            choice2: "Stand your ground and confront it.", choice2Destination: 4
+        ),
+        Story(
+            title: "The cave walls are lined with strange symbols, glowing faintly. As you step inside, a low growl rumbles from the depths. A massive, clawed beast emerges, its eyes glowing with fury.",
+            choice1: "Try to talk to the beast.", choice1Destination: 5,
+            choice2: "Prepare to fight!", choice2Destination: 6
+        ),
+        Story(
+            title: "You run deeper into the forest, but the vampire is faster. It appears in front of you in an instant, fangs bared.",
+            choice1: "Beg for mercy.", choice1Destination: 7,
+            choice2: "Try to escape again.", choice2Destination: 8
+        ),
+        Story(
+            title: "You raise your fists, ready to fight, but the vampire only smirks. 'Interesting… perhaps you’re stronger than you seem,' it says. It offers you a deal—join its legion, or face the consequences.",
+            choice1: "Join the vampire's legion.", choice1Destination: 9,
+            choice2: "Refuse and prepare to fight.", choice2Destination: 10
+        ),
+        Story(
+            title: "The beast tilts its head, intrigued. 'Few dare to speak to me,' it growls. 'Perhaps you are different.' It offers you guidance through the monster-infested lands.",
+            choice1: "Accept its guidance.", choice1Destination: 11,
+            choice2: "Politely decline and continue alone.", choice2Destination: 12
+        ),
+        Story(
+            title: "You charge at the beast, weapon in hand. It lets out a deafening roar and attacks with monstrous strength. The battle is fierce, but you are outmatched.",
+            choice1: "The", choice1Destination: 0,
+            choice2: "End", choice2Destination: 0
+        ),
+        Story(
+            title: "The vampire laughs. 'Pathetic.' Darkness engulfs you as the last thing you see is its sharp fangs closing in.",
+            choice1: "The", choice1Destination: 0,
+            choice2: "End", choice2Destination: 0
+        ),
+        Story(
+            title: "You try to flee again, but the vampire’s shadow engulfs you. When you open your eyes, you are no longer human—you have become one of them.",
+            choice1: "The", choice1Destination: 0,
+            choice2: "End", choice2Destination: 0
+        ),
+        Story(
+            title: "You pledge loyalty to the vampire. It grins, placing a cold hand on your shoulder. 'Welcome to the eternal night,' it whispers.",
+            choice1: "The", choice1Destination: 0,
+            choice2: "End", choice2Destination: 0
+        ),
+        Story(
+            title: "You refuse the vampire’s offer. Its smile fades, replaced with fury. The last thing you hear is the sound of your own heartbeat slowing.",
+            choice1: "The", choice1Destination: 0,
+            choice2: "End", choice2Destination: 0
+        ),
+        Story(
+            title: "With the beast as your guide, you travel through the monster realm, learning its secrets. Perhaps you belong here more than you thought.",
+            choice1: "The", choice1Destination: 0,
+            choice2: "End", choice2Destination: 0
+        ),
+        Story(
+            title: "You continue on alone, but the darkness grows heavier. Without a guide, you are lost, and the creatures lurking in the shadows close in.",
+            choice1: "The", choice1Destination: 0,
+            choice2: "End", choice2Destination: 0
+        )
+    ]
     
     func getStoryTitle() -> String {
         return stories[storyNumber].title
